@@ -75,8 +75,7 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'DajngoReact.wsgi.application'
-WSGI_APPLICATION = 'api.wsgi.app'
+WSGI_APPLICATION = 'DajngoReact.wsgi.application'
 
 
 
