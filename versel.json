@@ -2,7 +2,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "DjangoReact/wsgi.py"
+        "dest": "DajngoReact/wsgi.py"
       }
     ]
   }
