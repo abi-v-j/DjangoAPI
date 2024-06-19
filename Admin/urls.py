@@ -2,7 +2,7 @@ from django.urls import path
 from Admin import views
 
 urlpatterns = [
-    path('district/',views.district,name="district"),
+    path('',views.district,name="district"),
     path('deletedistrict/<int:id>',views.deletedistrict,name="deletedistrict"),
     path('updatedistrict/<int:id>',views.updatedistrict,name="updatedistrict"),
 
